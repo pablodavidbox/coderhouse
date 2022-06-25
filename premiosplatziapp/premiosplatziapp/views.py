@@ -4,6 +4,8 @@ from django.http import  HttpResponse
 
 def Saludo(request):
      return HttpResponse("Hola Django coders !") 
+
+   
        
 def mi_nombre(self, nombre):
     return HttpResponse(f"""
@@ -87,4 +89,7 @@ def mi_nombre(self, nombre):
     
     
     """)
+
+def saber_edad(self, edad):
+     return HttpResponse("Hola Django coders !")      
 
