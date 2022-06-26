@@ -2,9 +2,6 @@ from cgitb import html
 from html.entities import html5
 from django.http import  HttpResponse 
 
-def Saludo(request):
-     return HttpResponse("Hola Django coders !") 
-
    
        
 def mi_nombre(self, nombre):
